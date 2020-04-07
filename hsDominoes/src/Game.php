@@ -30,7 +30,6 @@ class Game{
 					$this -> output($e -> getMessage());
 				}
 			}
-// 			break;
 		}
 	}
 
