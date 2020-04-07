@@ -1,0 +1,74 @@
+* {
+	font-family: "trebuchet ms";
+}
+
+body {
+	background-image: url('../img/dominoes-background.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+p {
+	padding: 8px;
+	border-radius: 8px;
+	filter: drop-shadow(0 2px 4px #000);
+}
+
+.domino {
+	margin: 0 8px;
+	vertical-align: middle;
+	zoom: 0.5;
+	filter: drop-shadow(0 4px 8px #000);
+	vertical-align: middle;
+}
+
+.letter {
+	filter: drop-shadow(0 2px 4px #000);
+	height: 100px;
+}
+
+.gameTitle {
+	font-size: 4em;
+	text-shadow: 0 2px 8px #000;
+	color: #FFF;
+	-webkit-text-stroke: 2px #000C;
+}
+
+.player {
+	background: #CFC;
+	border: solid 2px #090;
+	color: #090;
+	text-align: right;
+}
+
+.gameStartBoard {
+	text-align: center;
+	color: #900;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #FEC;
+	border: solid 2px #900;
+}
+
+.boardStatus {
+	background: #EEE;
+	color: #666;
+	border: solid 2px #666;
+}
+
+.drawFromStock {
+	background: #FFC;
+	border: solid 2px #990;
+	color: #990;
+	text-align: center;
+}
+
+.winner {
+	text-align: center;
+	background: #CEF;
+	color: #00F;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: solid 2px #00F;
+}
