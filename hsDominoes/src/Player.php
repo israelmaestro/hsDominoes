@@ -36,4 +36,8 @@ class Player{
 	public function __toString(){
 		return $this -> name;
 	}
+
+	public function dominoes(){
+		return $this->dominoes->all();
+	}
 }
